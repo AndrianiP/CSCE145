@@ -1,0 +1,39 @@
+/*
+ * <<YOUR NAME>>
+ * CSCE 145 Practice Exam01 Question04
+ * Provided code. Do not alter the code that says "Do not alter"
+ * Make sure this at least compiles (no syntax errors)
+ * You may write additional methods to help
+ */
+//Do not alter-----------------------------------------------------------------------
+import java.util.Scanner;
+public class Question04 {
+	
+	public static int[] array;//Use this array to find the min and max values
+	
+	public static void main(String[] args) {
+
+		if(args == null || args.length == 0)
+		{
+//-----------------------------------------------------------------------------------
+			int[] testArray = {10,4,6,8,2};//You may change these values to test your solution
+//Do not alter-----------------------------------------------------------------------
+			array = testArray;
+		}
+		else
+		{
+
+		}
+//-----------------------------------------------------------------------------------
+		//Write your solution here
+
+	}//Do not alter this
+//Space for other methods if necessary-----------------------------------------------
+	//Write those here if necessary
+	
+//-----------------------------------------------------------------------------------
+}//Do not alter this
+
+/*Solution Description
+ * 
+ */

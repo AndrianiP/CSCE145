@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Question04",
+            "request": "launch",
+            "mainClass": "Question04",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Question01T",
+            "request": "launch",
+            "mainClass": "Question01T",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExamPrep<CSCE145_c52a3290>",
+            "request": "launch",
+            "mainClass": "ExamPrep",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question03<CSCE145_c52a3290>",
+            "request": "launch",
+            "mainClass": "Question03",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TempAverage<CSCE145_c52a3290>",
+            "request": "launch",
+            "mainClass": "TempAverage",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Homework01<CSCE145_c52a3290>",
+            "request": "launch",
+            "mainClass": "src.Homework01",
+            "projectName": "CSCE145_c52a3290"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question01",
+            "request": "launch",
+            "mainClass": "Question01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question02",
+            "request": "launch",
+            "mainClass": "Question02"
+        }
+    ]
+}

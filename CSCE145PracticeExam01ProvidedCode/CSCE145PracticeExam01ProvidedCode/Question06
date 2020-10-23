@@ -1,0 +1,39 @@
+/*
+ * <<YOUR NAME>>
+ * CSCE 145 Practice Exam01 Question06
+ * Provided code. Do not alter the code that says "Do not alter"
+ * Make sure this at least compiles (no syntax errors)
+ * You may write additional methods to help
+ */
+//Do not alter-----------------------------------------------------------------------
+import java.util.Scanner;
+public class Question06 {
+	
+	public static int[] array;//Use this array to find the product (all values multiplied together)
+	
+	public static void main(String[] args) {
+
+		if(args == null || args.length == 0)
+		{
+//-----------------------------------------------------------------------------------
+			int[] testArray = {1,2,3,4,5,6,7,8};//You may change these values to test your solution
+//Do not alter-----------------------------------------------------------------------
+			array = testArray;
+		}
+		else
+		{
+
+		}
+//-----------------------------------------------------------------------------------
+		//Write your solution here
+
+	}//Do not alter this
+//Space for other methods if necessary-----------------------------------------------
+	//Write those here if necessary
+	
+//-----------------------------------------------------------------------------------
+}//Do not alter this
+
+/*Solution Description
+ * 
+ */
