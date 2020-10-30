@@ -1,0 +1,124 @@
+
+
+java organzizes software
+    -Projects
+        -Then in Classes
+            -Then in Methods
+
+Classes are a way we can create classifications of "objects"
+
+instances of a class are referred to as objects
+
+classes provide a blueprint of a classs of objects  
+    -shared qualities
+    -shared characteristics
+
+Classes combine
+    -data (attributes / properties)
+    -methods (actions)
+
+Think of classes as nouns
+
+If creating a class follow these steps
+
+1.  Define the class
+2.  Create properties
+        -Instance Variables
+        -Constants
+3.  Define Constructors
+        -Default
+        -Parameterized
+4.   Create Accessors for every Instance Variables
+5.   Create Mutators for every instance Variables    
+6.   Create other methods
+        -equals()
+        -toString()
+7.   Use the Class to create a class
+
+
+Enumeration
+
+    An enumeration (enum) is a special kind of class that only contains Constants
+
+    User when creating a type that only has a set number of potential values 
+
+    Good programming practice to create in a seperate java file like classes
+
+    The constant values are sepratyed using a comma and values should be capitalized
+
+    declare an enum just like any other class
+        -does not require constrction
+
+Access the defined values using the dot (".")
+
+
+Overloading methods 
+
+    a Methods identifer, return type, and parameteres is called the signature or definition
+
+    Overloading methods are methods with the same identifers and return type but diferent parameteres
+        -this is within the same class
+
+Objects and Memory
+
+    Programs have different sections of memory
+        -stack
+        -heap
+        -data (global)
+        -text
+    Methods are pushed on and popped off of the stack
+
+    Object  are dynamically allocated in the heap
+
+    The Stack and the Heap grow toward each other
+
+Statics
+
+    Static methods and properties are created statically
+        - oppsed to created dynamically
+
+        -created one time in the deata (global) part of memory
+
+    Static Methods and propeties are shared across all instances    
+        -unlike dynamically methods or properties (instance Variables) that are unique to each instance
+    
+    Uses the reserved word "static"
+
+    CANNOT use the reserved word "this" to call static methods or properties
+        -it only refers to dynamic instances
+
+    Static methods do not rquire and instance (object) to be called 
+        0 can be called directly from the Class
+
+    Sometimes referred to as "Class methods"
+
+    Generally the scope public
+
+    Great to use when an action does not pertain to a particular instance (object)
+        -saves memory as it does hvae to redfiune the method for every instance.
+        -only defined one 
+
+    CANNOT use the reserved word this to call the static methods or properties
+        -it only refers to dynamic instances
+
+    Static methods can call other static methods
+
+    Dynamic methods can call static methods
+    
+    Static methods CANNOT call dynamic methods directly
+        -These methods can only be called when an instance has been constructed
+        -just like for the main method
+    
+    Static methods can be called directly from the Main Method
+
+    Calling static methods
+
+        <<Class Id>>.<<static method>>(<<parameters>>);
+
+        int sum  = SimpleMath.addition(2,3);
+
+    Commonly used classes with static methods
+        -Math
+        -Wrapper Classes
+    The Class "Math" is built into java and provides many mathematic functions
+        -does not require an instance of Math to 

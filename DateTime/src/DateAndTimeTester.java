@@ -13,7 +13,7 @@ public class DateAndTimeTester {
             System.out.println("Enter a date and time (MM/DD hh:mm) and I will determine if its valid.");
             String input = keyboard.nextLine();
 
-            System.out.println("The date and time is "+(isValid(input))?"is valid!" : "is not valid!");
+            System.out.println("The date and time is " + (isValid(input)) != null ? "is valid!" : "is not valid!");
             System.out.println("Would you like to quit? Type \"quit\" to exit or press [ENTER] to continue.");
 
             String choice = keyboard.nextLine();
@@ -23,6 +23,7 @@ public class DateAndTimeTester {
             }
             
         }
+        keyboard.close();
 
     }
     public boolean isValid(String dateAndTime){
