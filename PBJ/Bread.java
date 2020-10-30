@@ -1,75 +1,72 @@
 //Adriani Perez
 
 public class Bread {
-    
+
     private String name;
     private int calories;
-    public BreadType type;
+    private String type;
 
-    //Constructor
+    // Constructor
 
-    //Set Default
-    public Bread(){
+    // Set Default
+    public Bread() {
 
         this.name = "none";
         this.calories = 50;
-        this.type = BreadType.UNKNOWN;
+        this.type = "Whole Wheat";
     }
 
-    public Bread(String aN, int aC, BreadType aT){
+    public Bread(String aN, int aC, String aT) {
         this.setName(aN);
         this.setCalories(aC);
         this.setType(aT);
     }
-    
 
-    //Accesors
-    public String getName(){
+    // Accesors
+    public String getName() {
         return this.name;
     }
 
-    public int getCalories(){
+    public int getCalories() {
         return this.calories;
     }
 
-    public BreadType getType(){
+    public String getType() {
         return this.type;
     }
-    //mutators
-    public void setName(String aN){
-        if (aN != null){
+
+    // mutators
+    public void setName(String aN) {
+        if (aN != null) {
             this.name = aN;
-        }
-        else{
+        } else {
             this.name = "none";
         }
     }
-    public void setCalories(int aC){
-        if (aC >= 50 && aC <= 250 ){
+
+    public void setCalories(int aC) {
+        if (aC >= 50 && aC <= 250) {
             this.calories = aC;
-        }
-        else{
+        } else {
             this.calories = 50;
         }
     }
-    public void setType(BreadType aT){
-        if (aT != null){
+
+    public void setType(String aT) {
+        if (aT != null) {
             this.type = aT;
-        }
-        else{
-            this.type = BreadType.UNKNOWN;
+        } else {
+            this.type = "Whole wheat";
         }
     }
-    //Methods
+    // Methods
 
-    public String toString(){
-        return this.name+" "+this.calories+" "+this.type;
+    public String toString() {
+        return this.name + " " + this.calories + " " + this.type;
     }
 
-    public boolean equals(Bread aB){
-        return aB != null &&
-            this.name.equals(aB.getName()) &&
-            this.calories == aB.getCalories() &&
-            this.type == aB.getType();
+    public boolean equals(Bread aB) {
+        return aB != null && this.name.equals(aB.getName()) && this.calories == aB.getCalories()
+                && this.type == aB.getType();
     }
 }

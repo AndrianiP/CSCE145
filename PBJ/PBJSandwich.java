@@ -1,6 +1,5 @@
 //Adriani Perez
 
-
 public class PBJSandwich {
 
     private Bread TopSlice;
@@ -8,7 +7,7 @@ public class PBJSandwich {
     private Jelly Jelly;
     private Bread BottomSlice;
 
-    public PBJSandwich(){
+    public PBJSandwich() {
         this.TopSlice = new Bread();
         this.PeanutButter = new PeanutButter();
         this.Jelly = new Jelly();
@@ -24,53 +23,58 @@ public class PBJSandwich {
 
     }
 
-    public Bread getTopSlice(){
+    public Bread getTopSlice() {
         return this.TopSlice;
     }
-    public PeanutButter getPeanutButter(){
+
+    public PeanutButter getPeanutButter() {
         return this.PeanutButter;
     }
-    public Jelly getJelly(){
+
+    public Jelly getJelly() {
         return this.Jelly;
     }
-    public Bread getBottomSlice(){
+
+    public Bread getBottomSlice() {
         return this.BottomSlice;
     }
 
-    public void setTopSlice(String aN, int aC, BreadType aT){
+    public void setTopSlice(String aN, int aC, String aT) {
         this.TopSlice.setName(aN);
         this.TopSlice.setCalories(aC);
         this.TopSlice.setType(aT);
     }
 
-    public void setPeanutButter(String aN, int aC, boolean aIC){
+    public void setPeanutButter(String aN, int aC, boolean aIC) {
         this.PeanutButter.setName(aN);
         this.PeanutButter.setCalories(aC);
         this.PeanutButter.setIsCrunchy(aIC);
     }
-    public void setJelly(String aN, int aC, FruitType aT){
+
+    public void setJelly(String aN, int aC, String aT) {
         this.Jelly.setName(aN);
         this.Jelly.setCalories(aC);
         this.Jelly.setType(aT);
     }
-    public void setBottomSlice(String aN, int aC, BreadType aT){
+
+    public void setBottomSlice(String aN, int aC, String aT) {
         this.BottomSlice.setName(aN);
         this.BottomSlice.setCalories(aC);
         this.BottomSlice.setType(aT);
     }
 
-    public String toString(){
-        return this.TopSlice+"\n"+this.PeanutButter+"\n"+this.Jelly+"\n"+this.BottomSlice;
+    public String toString() {
+        return this.TopSlice + "\n" + this.PeanutButter + "\n" + this.Jelly + "\n" + this.BottomSlice;
 
     }
-/*
-    public boolean equals(PBJSandwich aPBJ){
-        if (aPBJ != null &&
-            this.TopSlice == aPBJ.TopSlice(aTS.getName(),aTS.getCalories(),aTS.getType()) &&
-            this.PeanutButter == aPBJ.PeanutButter(dP.getName(), dP.getCalories(), dP.getIsCrunchy()) &&
-            this.Jelly == aPBJ.Jelly(aJ.getName(), aJ.getCalories(), aJ.getType()) &&
-            this.BottomSlice == aPBJ.BottomSlice());
+    /*
+     public boolean equals(PBJSandwich aPBJ){ if (aPBJ != null && 
 
+        this.TopSlice == aPBJ.TopSlice() &&
+        this.PeanutButter == aPBJ.PeanutButter() &&
+        this.Jelly == aPBJ.Jelly() &&
+        this.BottomSlice == aPBJ.BottomSlice());
+     
     }
     */
 }
