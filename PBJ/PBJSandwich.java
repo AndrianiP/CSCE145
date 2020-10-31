@@ -67,14 +67,16 @@ public class PBJSandwich {
         return this.TopSlice + "\n" + this.PeanutButter + "\n" + this.Jelly + "\n" + this.BottomSlice;
 
     }
-    /*
-     public boolean equals(PBJSandwich aPBJ){ if (aPBJ != null && 
-
-        this.TopSlice == aPBJ.TopSlice() &&
-        this.PeanutButter == aPBJ.PeanutButter() &&
-        this.Jelly == aPBJ.Jelly() &&
-        this.BottomSlice == aPBJ.BottomSlice());
+    
+     public boolean equals(PBJSandwich aPBJ){
+        if (aPBJ != null && this.TopSlice.equals(aPBJ.getTopSlice()) &&
+                this.PeanutButter.equals(aPBJ.getPeanutButter())&&
+                this.Jelly.equals(aPBJ.getJelly())&&
+                this.BottomSlice.equals(aPBJ.getBottomSlice()))
+                    return true;
+        else{
+            return false;
+        }
      
     }
-    */
 }

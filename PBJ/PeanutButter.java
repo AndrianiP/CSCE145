@@ -56,7 +56,7 @@ public class PeanutButter {
 
     // Methods
     public String toString() {
-        return this.name + " " + this.calories;
+        return this.name + " " + this.calories+ " "+ this.IsCrunchy;
     }
 
     public boolean equals(PeanutButter aP) {
