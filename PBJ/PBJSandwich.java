@@ -64,19 +64,16 @@ public class PBJSandwich {
     }
 
     public String toString() {
-        return this.TopSlice + "\n" + this.PeanutButter + "\n" + this.Jelly + "\n" + this.BottomSlice;
+        return "Top Slice: "+this.TopSlice + "\nPeanut Butter: " + this.PeanutButter + "\nJelly: " + this.Jelly + "\nBottom Slice: " + this.BottomSlice;
 
     }
     
      public boolean equals(PBJSandwich aPBJ){
-        if (aPBJ != null && this.TopSlice.equals(aPBJ.getTopSlice()) &&
-                this.PeanutButter.equals(aPBJ.getPeanutButter())&&
-                this.Jelly.equals(aPBJ.getJelly())&&
-                this.BottomSlice.equals(aPBJ.getBottomSlice()))
-                    return true;
-        else{
-            return false;
-        }
+        return this.TopSlice != null &&
+            this.getTopSlice().equals(aPBJ.getTopSlice()) &&
+            this.getPeanutButter().equals(aPBJ.getPeanutButter()) &&
+            this.getJelly().equals(aPBJ.getJelly()) &&
+            this.getBottomSlice().equals(aPBJ.getBottomSlice());
      
     }
 }

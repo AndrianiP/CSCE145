@@ -67,6 +67,6 @@ public class Bread {
 
     public boolean equals(Bread aB) {
         return aB != null && this.name.equals(aB.getName()) && this.calories == aB.getCalories()
-                && this.type == aB.getType();
+                && this.type.equals(aB.getType());
     }
 }

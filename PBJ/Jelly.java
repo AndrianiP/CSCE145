@@ -62,7 +62,7 @@ public class Jelly {
 
     public boolean equals(Jelly aJ) {
         return aJ != null && this.name.equals(aJ.getName()) && this.calories == aJ.getCalories()
-                && this.type == aJ.getType();
+                && this.type.equals(aJ.getType());
     }
 
 }
