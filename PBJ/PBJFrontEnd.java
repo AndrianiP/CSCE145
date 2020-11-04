@@ -288,7 +288,7 @@ public class PBJFrontEnd {
         System.out.println("+++++++++++++++++++++++++++++++++\nSandwhich Two\n+++++++++++++++++++++++++++++++++");
         System.out.println(PBnJ02);
 
-        System.out.println("Are the sandwhiches the same?"+PBnJ01.equals(PBnJ02));
+        System.out.println("Are the sandwhiches the same? "+PBnJ01.equals(PBnJ02));
 
         keyboard.close();
     }

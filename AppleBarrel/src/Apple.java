@@ -13,7 +13,7 @@ public class Apple {
     public Apple(){
 
         this.type = "Gala";
-        this.weight = 0.0;
+        this.weight = 1.0;
         this.price = 0.0;
     }
 

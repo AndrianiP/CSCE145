@@ -1,5 +1,5 @@
 
-/*
+
 //Adriani Perez
 //10/23/2020
 
@@ -9,41 +9,30 @@ public class coffeeTest {
 
 
     public static void main(String[] args) {
-        
+
         Scanner keyboard = new Scanner(System.in);
+        Coffee coffee01 = new Coffee();
 
-        Coffee coffee01;
-        coffee01 = new Coffee();
+        System.out.println("Whats the name for the first coffee?");
+        coffee01.setName(keyboard.nextLine());
 
-        System.out.println("Whats the name of the first coffee?");
-        String Name01 = keyboard.nextLine();
-
-        System.out.println("What's the caffeine content for the first coffee?");
-        double caffeine01 = keyboard.nextDouble();
-
+        System.out.println("The amount of caffeine in milligrams in this coffee?");
+        coffee01.setCaffeine(keyboard.nextDouble());
         keyboard.nextLine();
 
+        Coffee coffee02 = new Coffee();
+
+        System.out.println("Whats the name for the second coffee?");
+        coffee02.setName(keyboard.nextLine());
+
+        System.out.println("The amount of caffeine in milligrams in this coffee?");
+        coffee02.setCaffeine(keyboard.nextDouble());
+
+        System.out.println("\nIt would take "+coffee01.riskyAmount()+" "+coffee01+" before it's dangerous to drink more.");
+
+        System.out.println("\nIt would take "+coffee02.riskyAmount()+" "+coffee02+" before it's dangerous to drink more.");
+
         
-        coffee01.setName(Name01);
-        coffee01.setCaffeine(caffeine01);
-
-        System.out.println(coffee01);
-
-
-        Coffee coffee02;
-        coffee02 = new Coffee();
-
-        System.out.println("Whats the name of the second coffee?");
-        String Name02 = keyboard.nextLine();
-
-        System.out.println("What's the caffeine content for the second coffee?");
-        double caffeine02 = keyboard.nextDouble();
-
-
-        System.out.println(coffee02);
         keyboard.close();
-
     }
-    
 }
-*/
