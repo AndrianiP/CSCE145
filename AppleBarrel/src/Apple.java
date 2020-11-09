@@ -9,12 +9,14 @@ public class Apple {
     private double weight;
     private double price;
     //step 3 create constructor
+
     //Defualt
     public Apple(){
 
-        this.type = "Gala";
+        this.type = "gala";
         this.weight = 1.0;
         this.price = 0.0;
+
     }
 
     public Apple(String aT, double aW, double aP){
@@ -23,10 +25,8 @@ public class Apple {
         this.setWeight(aW);
         this.setPrice(aP);
 
-
-
     }
-    //Step 4. Create ACcessors
+    //Step 4. Create Accessors
     public String getType(){
         return this.type;
     }
@@ -61,7 +61,7 @@ public class Apple {
             this.weight = aW;
         }
         else{
-            this.weight = 0;
+            this.weight = 1.0;
         }
 
     }

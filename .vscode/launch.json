@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - tester",
+            "request": "launch",
+            "mainClass": "tester",
+            "projectName": "CSCE145_1ef5faab"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AppleTester",
+            "request": "launch",
+            "mainClass": "AppleTester",
+            "projectName": "CSCE145_1ef5faab"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringHelperTester",
             "request": "launch",
             "mainClass": "StringHelperTester",

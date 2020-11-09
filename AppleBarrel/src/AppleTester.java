@@ -1,8 +1,6 @@
 //Adriani Perez
 //10/23/2020
 
-import java.util.Scanner;
-
 public class AppleTester {
     public static void main(String[] args){
         System.out.println("Welcome to apple tester\n\nCreating Default apple");
