@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Question04",
+            "request": "launch",
+            "mainClass": "Question04",
+            "projectName": "CSCE145_1ef5faab"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Question03",
+            "request": "launch",
+            "mainClass": "Question03",
+            "projectName": "CSCE145_1ef5faab"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - tester",
             "request": "launch",
             "mainClass": "tester",

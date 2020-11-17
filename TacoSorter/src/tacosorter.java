@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class tacosorter{
 
-
     public static void main(String[] args){
 
         Scanner keyboard = new Scanner(System.in);

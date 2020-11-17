@@ -1,6 +1,6 @@
 /*
  * CSCE 145 Exam Prep
- * Adriani
+ * Adriani Perez
  * Provided code. Do not alter the code that says "Do not alter"
  * Make sure this at least compiles (no syntax errors)
  * You may write additional methods to help
@@ -18,7 +18,7 @@ public class ExamPrep {
 		
 		System.out.println("Question:\nWhere are the links to the problems found?");//Do not alter this
 		//Print your answer to the console here.
-		System.out.println("On this site 'https://cse.sc.edu/~shephejj/csce145/'");
+		System.out.println("On this site dropbox on the exam week");
 		
 		System.out.println("Question:\nIs this exam open book and open notes?");//Do not alter this
 		//Print your answer to the console here.
@@ -46,14 +46,15 @@ public class ExamPrep {
 		
 		System.out.println("Question:\nWhat may happen if the provided code is altered where it says, \"Do Not Alter\"?");//Do not alter this
 		//Print your answer to the console here.
-		System.out.println("I have no idea.");
+		System.out.println("The program might not run and u will not get any credit");
 		
 		System.out.println("Question:\nIf a problem requires output to the console, then what must be followed exactly? Be specific as there are 4 elements.");//Do not alter this
 		//Print your answer to the console here.
-		System.out.println("");
+		System.out.println("Capitalization, spelling, punctuation, and spacing");
 		
 		System.out.println("Question:\nWhat does \"<<>>\" mean and should it be included in a program’s output?");//Do not alter this
 		//Print your answer to the console here.
+		System.out.println("It means its a variable and you not include '<<>>''");
 		
 		System.out.println("Question:\nHow many words are required for the Solution Description?");//Do not alter this
 		//Print your answer to the console here.
